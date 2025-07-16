@@ -1,0 +1,13 @@
+[package]
+name = "toyinsolasportfolio"
+version = "1.0.0"
+
+[dependencies]
+static-web-server = "1.13.0"
+
+[fs]
+dist = "/"
+
+[command]
+executable = "static-web-server"
+args = ["--port", "8080", "--root", "."]
