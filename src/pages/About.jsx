@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Profilepic from '../assets/images/IMG-20240705-WA0265.jpg';
 
 export default function About() {
   return (
@@ -29,7 +30,7 @@ export default function About() {
       <section className="mb-20 flex justify-center">
         {/* Replace with your real image */}
         <img
-          src="src/assets/images/IMG-20240705-WA0265.jpg"
+          src={Profilepic}
           alt="Basco Profile"
           className="rounded-full w-56 h-56 shadow-lg"
           style={{ maxWidth: '100%' }}

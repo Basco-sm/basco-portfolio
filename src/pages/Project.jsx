@@ -1,5 +1,7 @@
 import React from 'react';
-
+import vid1 from '../assets/videos/compressed_00.44.09.mp4';
+import vid2 from '../assets/videos/compressed_00.52.08.mp4';
+import vid3 from '../assets/videos/compressed_00.56.24.mp4';
 const projects = [
   {
     id: 1,
@@ -7,7 +9,7 @@ const projects = [
     description: 'This is a personal car website project I worked on.',
     media: (
       <video
-        src="src/assets/videos/compressed_00.44.09.mp4"
+        src={vid1}
         controls
         className="w-full h-full object-cover"
       />
@@ -19,7 +21,7 @@ const projects = [
     description: 'Quickpick is an ecommerce website I did to show my skils and understanding in UI/UX',
     media: (
       <video
-        src="src/assets/videos/compressed_00.56.24.mp4"
+        src={vid3}
         controls
         className="w-full h-full object-cover"
       />
@@ -31,7 +33,7 @@ const projects = [
     description: 'Devvisionary is a group project that gets blogs and allow user to login in. It is purely frontend.',
     media: (
       <video
-        src="src/assets/videos/compressed_00.52.08.mp4"
+        src={vid2}
         controls
         className="w-full h-full object-cover"
       />
