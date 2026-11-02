@@ -13,8 +13,9 @@ function App() {
 
   return (
   <BrowserRouter>
+  <div className="flex flex-col min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
   <Navbar />
-  <main className="">
+  <main className="flex-grow w-full">
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />
@@ -25,6 +26,7 @@ function App() {
     </Routes>
     </main>
     <Footer />
+    </div>
   </BrowserRouter>
 
   )
