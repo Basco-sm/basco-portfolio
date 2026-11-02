@@ -12,13 +12,13 @@ export default function Footer() {
           <p className="flex items-center gap-3 mb-2">
             <FaEnvelope className="text-indigo-600 dark:text-cyan-400" />
             <a href="mailto:toyinsolaobayemi495@gmail.com" className="hover:underline">
-              toyinsolaobayemi495@gmail.com
+              tobayemi@uoguelph.ca
             </a>
           </p>
           <p className="flex items-center gap-3">
             <FiPhone className="text-indigo-600 dark:text-cyan-400" />
             <a href="tel:+2348166402660" className="hover:underline">
-              +234 8166402660
+              +1 (548) 316-4218
             </a>
           </p>
         </div>

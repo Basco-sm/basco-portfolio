@@ -25,8 +25,7 @@ const skillCategories = [
     skills: [
       { name: 'Figma', level: 85 },
       { name: 'Google Forms', level: 90 },
-      { name: 'ChatGPT', level: 90 },
-      { name: 'In-Person Interview', level: 80 },
+      { name: 'Claude', level: 90 },
     ],
   },
   {

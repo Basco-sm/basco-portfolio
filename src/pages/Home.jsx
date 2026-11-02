@@ -25,7 +25,7 @@ export default function Home() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.4 }}
                 >
-                    UI/UX enthusiast and fullstack developer-in-training. I'm designing and building interfaces while learning, one project at a time.
+                    UI/UX enthusiast and full-stack developer-in-training. I'm designing and building interfaces while learning, one project at a time.
                 </motion.p>
                 <motion.div
                     className="flex justify-center gap-4 flex-wrap"
@@ -56,7 +56,7 @@ export default function Home() {
                         I'm on a journey to become a professional UI/UX designer and fullstack
                         developer. I enjoy crafting clean, user-friendly interfaces using tools
                         like <strong>Figma</strong>, <strong>React</strong>, and <strong>Tailwind
-                        CSS</strong>. On the backend, I build and manage applications using the
+                        CSS</strong>. On the backend, I build and manage applications using the 
                         <strong>MERN stack</strong> (MongoDB, Express.js, React, and Node.js).
                         I'm passionate about learning, growing, and exploring future
                         possibilities in tech. I also use <strong>Google Forms</strong> to
