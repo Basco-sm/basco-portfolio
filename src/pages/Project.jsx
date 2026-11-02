@@ -1,6 +1,6 @@
 import React from 'react';
 import vid1 from '../assets/videos/compressed_00.44.09.mp4';
-import vid2 from '../assets/videos/compressed_00.52.08.mp4';
+import vid2 from '../assets/videos/compressedblog.mp4';
 import vid3 from '../assets/videos/compressed_00.56.24.mp4';
 const projects = [
   {
