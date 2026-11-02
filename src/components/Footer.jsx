@@ -48,7 +48,7 @@ export default function Footer() {
             <li className="flex items-center gap-3">
               <FaEnvelope className="text-indigo-600 dark:text-cyan-400" />
               <a href="mailto:tobayemi@uoguelph.ca" className="hover:underline">
-               tobayemi@guelph.ca
+               tobayemi@uoguelph.ca
               </a>
             </li>
           </ul>
