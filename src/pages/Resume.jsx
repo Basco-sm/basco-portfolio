@@ -121,9 +121,9 @@ export default function Resume() {
             <li>
               <div className="flex justify-between font-semibold text-gray-900 dark:text-white">
                 <span>University of Guelph</span>
-                <span className="text-sm font-normal text-gray-500">2025 – Expected April 2029</span>
+                <span className="text-sm font-normal text-gray-500">2025 – Expected June 2030</span>
               </div>
-              <span className="text-xs text-gray-500 block ml-4">Bachelor of Computing (Honours) – Computer Science Co-op</span>
+              <span className="text-xs text-gray-500 block ml-4">Bachelor of Computing – Computer Science Co-op</span>
             </li>
           </ul>
         </section>
@@ -134,8 +134,8 @@ export default function Resume() {
             Volunteer & Certifications
           </h3>
           <ul className="list-none space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
-            <li><span className="font-semibold text-gray-900 dark:text-white">●</span> Technical Peer Volunteer — Google Developer Student Club (GDSC)</li>
-            <li><span className="font-semibold text-gray-900 dark:text-white">●</span> Software Verification & Relational Database Design Academic Competencies</li>
+            <li><span className="font-semibold text-gray-900 dark:text-white"></span> Technical Peer Volunteer — Google Developer Student Club (GDSC)</li>
+            <li><span className="font-semibold text-gray-900 dark:text-white"></span> Software Verification & Relational Database Design Academic Competencies</li>
           </ul>
         </section>
 
