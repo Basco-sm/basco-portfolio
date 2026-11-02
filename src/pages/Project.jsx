@@ -5,8 +5,8 @@ import vid3 from '../assets/videos/compressed_00.56.24.mp4';
 const projects = [
   {
     id: 1,
-    title: 'FIRST PERSONAL FULLSTACK WEBSITE',
-    description: 'This is a personal car website project I worked on.',
+    title: 'Car E-commerce Platform',
+    description: 'A full-stack web application featuring a dynamic product description layouts, an interactive news blog, and a backend service appointment booking system built with Node.js and Express.',
     media: (
       <video
         src={vid1}
@@ -17,8 +17,8 @@ const projects = [
   },
   {
     id: 2,
-    title: 'UI/UX project',
-    description: 'Quickpick is an ecommerce website I did to show my skils and understanding in UI/UX',
+    title: 'QuickPick - E-Commerce Experience',
+    description: 'An end-to-end UI/UX design project focused on user-centered design principles, encompassing user personas, detailed information architecture maps, comprhensive wireframes, and high-fidelity Figma prototyping.',
     media: (
       <video
         src={vid3}
@@ -42,7 +42,7 @@ const projects = [
   {
     id: 4,
     title: 'IA FOR QUICKPICK',
-    description: 'This is the information arxhitecture of the quickpick project.',
+    description: 'This is the information architecture of the quickpick project.',
     media: (
       <a
         href="https://www.figma.com/board/uk5gWCJcIWCVIVULamUrC6/ia-for-quickpick?node-id=0-1&p=f&t=TVdv80kPGKUbhk9U-0"
@@ -77,7 +77,7 @@ const projects = [
   {
     id: 6,
     title: 'GOOGLE FORM SKILLS',
-    description: 'This is a google form i used to get user feedback on ecommerce website.',
+    description: 'This is a Google Form I used to get user feedback on ecommerce website.',
     media: (
       <a
         href="https://forms.gle/cu4mRCPN2oxM6TWU9"
