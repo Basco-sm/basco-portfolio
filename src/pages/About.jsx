@@ -38,12 +38,14 @@ export default function About() {
       </section>
 
       {/* Learning Journey Timeline */}
-      <section className='pb-12'>
+      <section className='pb-16'>
         <h2 className="text-3xl font-bold mb-12 text-indigo-600 dark:text-cyan-400 text-center">
           My Learning Journey
         </h2>
-
-        <ol className="relative border-l-2 border-indigo-300 dark:border-cyan-700 max-w-xl mx-auto space-y-14 pl-8 pr-4">
+        <div className='relative max-w-xl mx-auto px-4'>
+        <div className='absolute left-[27px] top-2 bottom-2 w-0.5 bg-indigo-300 dark:bg-cyan-700'></div>
+        <div className='space-y-12'>
+        
           {[
             {
               year: '2024',
@@ -64,13 +66,14 @@ export default function About() {
                 'I’ve deepened my knowledge of React, along with key frameworks and libraries. On the backend, I’ve worked with Express, MongoDB, and tools like Nodemon to build a full project, strengthening my fullstack development skills.',
             },
           ].map(({ year, title, description }) => (
-            <li key={year} className="relative">
-              <span className="absolute -left-6 top-2 bg-indigo-600 dark:bg-cyan-400 rounded-full w-8 h-8 border-4 border-white dark:border-gray-900"></span>
+            <div key={year} className="relative pl-12">
+              <span className="absolute left-2.5 top-1.5 bg-indigo-600 dark:bg-cyan-400 rounded-full w-4 h-4 border-4 border-white dark:border-gray-900"></span>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{year}: {title}</h3>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{description}</p>
-            </li>
+            </div>
           ))}
-        </ol>
+        </div>
+        </div>
       </section>
     </motion.main>
   );
