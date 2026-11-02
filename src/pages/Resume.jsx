@@ -16,7 +16,7 @@ export default function Resume() {
             My Resume
           </h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-            Review my experience or download a copy for your records.
+            Review my resume or download a copy for your records.
           </p>
         </div>
         {/* DOWNLOAD BUTTON */}
@@ -44,58 +44,57 @@ export default function Resume() {
           <div className="flex flex-wrap gap-x-4 gap-y-1 justify-center sm:justify-start text-sm text-gray-600 dark:text-gray-400 mt-3">
             <span>Guelph, ON</span>
             <span>•</span>
-            <span>+1 (226) 270-2165</span>
+            <span>+1 (548) 316-4218</span>
             <span>•</span>
             <a href="mailto:tobayemi@uoguelph.ca" className="hover:underline text-indigo-500 dark:text-cyan-400">tobayemi@uoguelph.ca</a>
             <span>•</span>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:underline text-indigo-500 dark:text-cyan-400">://linkedin.com</a>
+            <a href="https://www.linkedin.com/in/toyinsola-obayemi-408b69350/" target="_blank" rel="noreferrer" className="hover:underline text-indigo-500 dark:text-cyan-400">://linkedin.com</a>
           </div>
         </div>
 
         {/* Professional Summary */}
         <section className="space-y-2">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm">
-            Highly motivated Computer Science Co-op student with hands-on experience building web and mobile applications from scratch, leveraging the MERN stack and React Native alongside AI-assisted tools to accelerate delivery while maintaining a strict focus on system verification and debugging.
+            Highly motivated Computer Science Co-op student with hands-on experience building web and mobile applications from scratch, utilizing the MERN stack and React Native alongside AI-assisted tools to speed up delivery while maintaining a strict focus on system verification and debugging.
           </p>
         </section>
 
         {/* Experience Section */}
         <section className="space-y-6">
           <h3 className="text-md font-bold tracking-wider text-indigo-600 dark:text-cyan-400 uppercase border-b border-gray-100 dark:border-gray-900 pb-1">
-            Experience
+            PERSONAL PROJECTS
           </h3>
 
           {/* MindTock */}
           <div className="space-y-2">
             <div className="flex flex-col sm:flex-row justify-between font-semibold text-gray-900 dark:text-white">
-              <span>MindTock Mobile Application | <span className="font-normal text-gray-500 dark:text-gray-400">Full-Stack Developer</span></span>
-              <span className="text-sm font-normal text-gray-500">July 2025 - Present</span>
+              <span>MindTock | <span className="font-normal text-gray-500 dark:text-gray-400">Full-Stack Developer</span></span>
+              <span className="text-sm font-normal text-gray-500">July 2026 - Present</span>
             </div>
             <p className="text-xs italic text-gray-600 dark:text-gray-400">
               <span className="font-semibold not-italic">Project Scope:</span> Architected, verified, and published a live mobile utility application to the Google Play Store, managing the full release pipeline.
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
-              <li>Utilized AI-assisted coding tools including Claude and Cursor to rapidly prototype frontend forms, accelerating the initial development lifecycle.</li>
-              <li>Isolated and resolved critical runtime regressions within background threads by analyzing native hardware device logs and build configurations.</li>
-              <li>Programmed native background execution logic using Kotlin to guarantee 100% alarm delivery and system reliability when devices are locked.</li>
-              <li>Integrated the OpenAI API into an asynchronous backend framework by designing custom data-handling guardrails and API fallback parameters.</li>
+              <li>Integrated OpenAI API with a custom Node.js backend, using AI-assisted development tools throughout to design content moderation and fallback logic.</li>
+              <li>Built and published an Android alarm app to Google Play Console requiring users to complete a challenge to dismiss the alarm.</li>
+              <li>Developed native Kotlin modules for reliable alarm delivery on locked devices.</li>
+              <li>Debugged native build issues and managed the full Google Play release process.</li>
             </ul>
           </div>
 
           {/* Car Website */}
           <div className="space-y-2">
             <div className="flex flex-col sm:flex-row justify-between font-semibold text-gray-900 dark:text-white">
-              <span>Car E-Commerce Website | <span className="font-normal text-gray-500 dark:text-gray-400">Full-Stack Developer</span></span>
-              <span className="text-sm font-normal text-gray-500">June 2025 – August 2025</span>
+              <span>Car Website | <span className="font-normal text-gray-500 dark:text-gray-400">Full-Stack Developer</span></span>
+              <span className="text-sm font-normal text-gray-500">June 2025 - September 2025</span>
             </div>
             <p className="text-xs italic text-gray-600 dark:text-gray-400">
-              <span className="font-semibold not-italic">Project Scope:</span> Developed a full-stack web application project featuring a hardcoded frontend car inventory catalog, dedicated vehicle detail pages, an automotive news blog, and a backend-integrated service appointment booking system.
+              <span className="font-semibold not-italic">Project Scope:</span> Developed a local full-stack web application featuring a hardcoded frontend inventory catalog, dedicated vehicle detail pages, an automotive news blog, and a service appointment booking system using backend.
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
               <li>Created reusable React components to dynamically render individual vehicle specification pages and layout the automotive news blog from frontend data arrays.</li>
               <li>Built an automated appointment booking system from scratch to capture user data and handle service scheduling workflows.</li>
               <li>Used Node.js and Express.js to build the backend logic for processing service appointment requests.</li>
-              <li>Used Postman to test and verify the backend API booking routes to ensure user appointment data flows correctly.</li>
             </ul>
           </div>
         </section>
@@ -103,13 +102,13 @@ export default function Resume() {
         {/* Skills Section */}
         <section className="space-y-3">
           <h3 className="text-md font-bold tracking-wider text-indigo-600 dark:text-cyan-400 uppercase border-b border-gray-100 dark:border-gray-900 pb-1">
-            Skills
+            TECHNICAL SKILLS
           </h3>
           <ul className="list-none space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
-            <li><span className="font-semibold text-gray-900 dark:text-white">● Languages:</span> Java, TypeScript, JavaScript, C, Kotlin, HTML, CSS</li>
-            <li><span className="font-semibold text-gray-900 dark:text-white">● Frameworks:</span> React Native, React, Node.js, Express.js, Mongoose.js, Expo</li>
-            <li><span className="font-semibold text-gray-900 dark:text-white">● Databases & OS:</span> MongoDB, Relational Database Design, Windows, macOS</li>
-            <li><span className="font-semibold text-gray-900 dark:text-white">● Tools & Focus:</span> Git, GitHub Workflows, Postman, Claude, Cursor, Agile/Scrum</li>
+            <li><span className="font-semibold text-gray-900 dark:text-white">● Languages:</span> Java, JavaScript, TypeScript, C, Kotlin, HTML, CSS</li>
+            <li><span className="font-semibold text-gray-900 dark:text-white">● Development Tools:</span> Git, GitHub, Postman, Claude, Google Play Console</li>
+            <li><span className="font-semibold text-gray-900 dark:text-white">● Databases & OS:</span> MongoDB, Windows(10/11), macOS</li>
+            <li><span className="font-semibold text-gray-900 dark:text-white">● Frameworks and Libraries:</span> React, React Native, Node.js, Express.js, Expo</li>
           </ul>
         </section>
 
@@ -125,13 +124,6 @@ export default function Resume() {
                 <span className="text-sm font-normal text-gray-500">2025 – Expected April 2029</span>
               </div>
               <span className="text-xs text-gray-500 block ml-4">Bachelor of Computing (Honours) – Computer Science Co-op</span>
-            </li>
-            <li>
-              <div className="flex justify-between font-semibold text-gray-900 dark:text-white">
-                <span>● New Horizons Systems</span>
-                <span className="text-sm font-normal text-gray-500">2025</span>
-              </div>
-              <span className="text-xs text-gray-500 block ml-4">FranklinCovey Leadership Program Certificate</span>
             </li>
           </ul>
         </section>
