@@ -56,8 +56,8 @@ export default function Home() {
                         I'm on a journey to become a professional UI/UX designer and fullstack
                         developer. I enjoy crafting clean, user-friendly interfaces using tools
                         like <strong>Figma</strong>, <strong>React</strong>, and <strong>Tailwind
-                        CSS</strong>. On the backend, I build and manage applications using the 
-                        <strong>MERN stack</strong> (MongoDB, Express.js, React, and Node.js).
+                        CSS</strong>. On the backend, I build and manage applications using the
+                         <strong> MERN stack</strong> (MongoDB, Express.js, React, and Node.js).
                         I'm passionate about learning, growing, and exploring future
                         possibilities in tech. I also use <strong>Google Forms</strong> to
                         collect user feedback, which helps me create meaningful user personas
