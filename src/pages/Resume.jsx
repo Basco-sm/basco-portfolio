@@ -105,10 +105,10 @@ export default function Resume() {
             TECHNICAL SKILLS
           </h3>
           <ul className="list-none space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
-            <li><span className="font-semibold text-gray-900 dark:text-white">● Languages:</span> Java, JavaScript, TypeScript, C, Kotlin, HTML, CSS</li>
-            <li><span className="font-semibold text-gray-900 dark:text-white">● Development Tools:</span> Git, GitHub, Postman, Claude, Google Play Console</li>
-            <li><span className="font-semibold text-gray-900 dark:text-white">● Databases & OS:</span> MongoDB, Windows(10/11), macOS</li>
-            <li><span className="font-semibold text-gray-900 dark:text-white">● Frameworks and Libraries:</span> React, React Native, Node.js, Express.js, Expo</li>
+            <li><span className="font-semibold text-gray-900 dark:text-white">Languages:</span> Java, JavaScript, TypeScript, C, Kotlin, HTML, CSS</li>
+            <li><span className="font-semibold text-gray-900 dark:text-white">Development Tools:</span> Git, GitHub, Postman, Claude, Google Play Console</li>
+            <li><span className="font-semibold text-gray-900 dark:text-white">Databases & OS:</span> MongoDB, Windows(10/11), macOS</li>
+            <li><span className="font-semibold text-gray-900 dark:text-white">Frameworks and Libraries:</span> React, React Native, Node.js, Express.js, Expo</li>
           </ul>
         </section>
 
@@ -120,7 +120,7 @@ export default function Resume() {
           <ul className="list-none space-y-2 text-sm text-gray-700 dark:text-gray-300">
             <li>
               <div className="flex justify-between font-semibold text-gray-900 dark:text-white">
-                <span>● University of Guelph</span>
+                <span>University of Guelph</span>
                 <span className="text-sm font-normal text-gray-500">2025 – Expected April 2029</span>
               </div>
               <span className="text-xs text-gray-500 block ml-4">Bachelor of Computing (Honours) – Computer Science Co-op</span>
