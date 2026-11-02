@@ -4,13 +4,13 @@ import { motion } from 'framer-motion';
 export default function Home() {
     return (
         <motion.div
-            className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition"
+            className="flex flex-col min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
         >
             {/* Hero */}
-            <section className="px-6 py-24 text-center bg-gradient-to-br from-indigo-600 to-cyan-500 text-white shadow-md">
+            <section className="px-6 py-24 text-center bg-gradient-to-br from-indigo-600 to-cyan-500 text-white shadow-md flex-none">
                 <motion.h1
                     className="text-5xl sm:text-6xl font-extrabold mb-4 tracking-tight"
                     initial={{ y: 30, opacity: 0 }}
@@ -49,7 +49,7 @@ export default function Home() {
             </section>
 
             {/* About snippet */}
-            <section className="px-6 py-16 bg-white dark:bg-gray-900">
+            <section className="flex-grow flex items-center justify-center px-6 py-16 bg-white dark:bg-gray-900">
                 <div className="max-w-3xl mx-auto text-center space-y-6">
                     <h2 className="text-3xl font-bold text-indigo-600 dark:text-cyan-400">Who am I?</h2>
                     <p className="text-gray-700 dark:text-gray-300 text-lg">
@@ -64,8 +64,8 @@ export default function Home() {
                         and improve product direction based on real insights.
 
                     </p>
-                    <p className="text-gray-600 dark:text-gray-400 text-md">
-                        I'm not a pro yet — but I'm growing every day. This portfolio is a reflection of that learning process.
+                    <p className="text-gray-600 dark:text-gray-400 text-md italic border-t border-gray-200 dark:border-gray-800 pt-4">
+                        Focused on iterative development, turning design patterns and analytical workflows into working, robust application components.
                     </p>
                 </div>
             </section>
