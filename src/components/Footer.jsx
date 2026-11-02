@@ -4,7 +4,7 @@ import { FiPhone } from 'react-icons/fi'; // New modern phone icon
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200 py-10 mt-20">
+    <footer className="bg-gray-200 text-gray-800 dark:bg-gray-950 dark:text-gray-200 py-10 mt-20">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
         {/* Contact Info */}
         <div>
