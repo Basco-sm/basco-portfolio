@@ -119,14 +119,16 @@ export default function Projects() {
             key={id}
             className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-indigo-500/50 transition-shadow duration-300"
           >
-            <div className="h-56 w-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
+            <div className="h-56 w-full bg-gray-200 dark:bg-gray-900 flex items-center justify-center overflow-hidden border-b border-gray-100 dark:border-gray-700 flex-none">
               {media}
             </div>
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow justify-between">
+              <div className='space-y-2'>
               <h2 className="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">
                 {title}
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">{description}</p>
+              </div>
               <div className="flex space-x-4">
                 {github && (
                   <a
