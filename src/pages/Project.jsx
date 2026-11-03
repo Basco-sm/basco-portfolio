@@ -5,18 +5,6 @@ import vid3 from '../assets/videos/compressed_00.56.24.mp4';
 import vid4 from '../assets/videos/compressed_mindtock.mp4';
 const projects = [
   {
-    id: 7,
-    title: 'MindTock Mobile Application',
-    description: 'Architected and published a live mobile utility application to the Google Play Store using React Native, TypeScript, and a Node.js backend. Utilized Replit for rapid cloud sandboxing and building, and applied advanced prompt engineering with Claude and Gemini. This utility app allows user to set any challenge of their choice from the available options for each alarm they set to prevent oversleeping or snoozing. There is also a maximum allowance of 2 snoozes per week.',
-    media: (
-      <video
-        src={vid4}
-        controls
-        className="w-full h-full object-cover"
-      />
-    ),
-  },
-  {
     id: 1,
     title: 'Car website',
     description: 'A full-stack web application featuring a dynamic product description layouts, an interactive news blog, and a backend service appointment booking system built with Node.js and Express.',
@@ -104,6 +92,18 @@ const projects = [
     github: null,
     demo: null,
   },
+  {
+    id: 7,
+    title: 'MindTock Mobile Application',
+    description: 'Architected and published a live mobile utility application to the Google Play Store using React Native, TypeScript, and a Node.js backend. Utilized Replit for rapid cloud sandboxing and building, and applied advanced prompt engineering with Claude and Gemini. This utility app allows user to set any challenge of their choice from the available options for each alarm they set to prevent oversleeping or snoozing. There is also a maximum allowance of 2 snoozes per week.',
+    media: (
+      <video
+        src={vid4}
+        controls
+        className="w-full h-full object-cover"
+      />
+    ),
+  },
 ];
 
 
@@ -119,16 +119,14 @@ export default function Projects() {
             key={id}
             className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-indigo-500/50 transition-shadow duration-300"
           >
-            <div className="h-56 w-full bg-gray-200 dark:bg-gray-900 flex items-center justify-center overflow-hidden border-b border-gray-100 dark:border-gray-700 flex-none">
+            <div className="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
               {media}
             </div>
-            <div className="p-6 flex flex-col flex-grow justify-between">
-              <div className='space-y-2'>
+            <div className="p-6">
               <h2 className="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">
                 {title}
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">{description}</p>
-              </div>
               <div className="flex space-x-4">
                 {github && (
                   <a
