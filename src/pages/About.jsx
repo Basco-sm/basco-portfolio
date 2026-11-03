@@ -16,13 +16,11 @@ export default function About() {
           About Me
         </h1>
         <p className="mx-auto text-lg max-w-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-          Hi, I'm Toyinsola — a passionate fullstack developer and UI/UX enthusiast on a 
-          mission to learn, build, and explore the endless possibilities of tech. I believe 
-          great software blends clean, efficient code with thoughtful, user-centered design to 
-          solve real-world problems. I strive to write modular, reusable components that keep my 
-          codebase lean and maintainable — delivering more with less. Every product I work on is 
-          shaped by real user feedback, because the best solutions begin with understanding the 
-          people who use them.
+          Hi, I'm Toyinsola — a Computer Science student at the University of Guelph on a mission to build software that makes
+          a real difference. I believe that great software shouldn't just run efficiently behind the scenes but also need to be intuitive,
+          accessible, and meaningful to the person using it. Whether I am writing backend API logic using Node.js or sketching out user flows
+          in Figma, my goal is to always build clean, modular components that keep codebase maintainable. I take total ownership of my development workflow, 
+          from mapping user requirements to conducting deep root-cause debugging when things don't go as planned.
         </p>
       </section>
 
