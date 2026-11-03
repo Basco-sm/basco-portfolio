@@ -34,6 +34,13 @@ export default function About() {
           style={{ maxWidth: '100%' }}
         />
       </section>
+      <p className="mx-auto text-lg max-w-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+          When I'm not debugging code or building user interfaces, I like to keep my mind and body active. You can find me out playind soccer, 
+          basketball, or hitting the ice for some skating. Playing sports has taught me a lot about team communication, rapid problem-solving, and 
+          staying disciplined under pressure. On the creative side, I really love dancing, singing and catching up on great movies to unwind. For me, 
+          keeping a healthy balance between competitive teamwork on the field and creative outlets at home is what keeps me energized, sharp, and motivated in my 
+          software development work everyday.
+        </p>
 
       {/* Learning Journey Timeline */}
       <section className='pb-16'>
