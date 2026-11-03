@@ -25,7 +25,7 @@ export default function Home() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.4 }}
                 >
-                    UI/UX enthusiast and full-stack developer-in-training. I'm designing and building interfaces while learning, one project at a time.
+                    Full-Stack Developer and UI/UX enthusiast. Building functional web applications and mobile utilities while mapping user requirements into clean digital experiences.
                 </motion.p>
                 <motion.div
                     className="flex justify-center gap-4 flex-wrap"
@@ -53,19 +53,15 @@ export default function Home() {
                 <div className="max-w-3xl mx-auto text-center space-y-6">
                     <h2 className="text-3xl font-bold text-indigo-600 dark:text-cyan-400">Who am I?</h2>
                     <p className="text-gray-700 dark:text-gray-300 text-lg">
-                        I'm on a journey to become a professional UI/UX designer and fullstack
-                        developer. I enjoy crafting clean, user-friendly interfaces using tools
-                        like <strong>Figma</strong>, <strong>React</strong>, and <strong>Tailwind
-                        CSS</strong>. On the backend, I build and manage applications using the
-                         <strong> MERN stack</strong> (MongoDB, Express.js, React, and Node.js).
-                        I'm passionate about learning, growing, and exploring future
-                        possibilities in tech. I also use <strong>Google Forms</strong> to
-                        collect user feedback, which helps me create meaningful user personas
-                        and improve product direction based on real insights.
-
+                        I am a Computer Science student at the University of Gueplh focused on bridging the gap between 
+                        clean engineering and user-centered design. I enjoy crafting intuitive interfaces using tools
+                        like <strong>Figma</strong> and <strong>Tailwind CSS</strong>, and implementing reliable backend solutions
+                        using the<strong> MERN stack</strong> (MongoDB, Express.js, React, and Node.js). I'm passionate about learning
+                        through hands-on development, solving problems systemically, and using tools like Google Forms to collect user
+                         feedback so I can design software based on real-world workflow requirements.
                     </p>
                     <p className="text-gray-600 dark:text-gray-400 text-md italic border-t border-gray-200 dark:border-gray-800 pt-4">
-                        Focused on iterative development, turning design patterns and analytical workflows into working, robust application components.
+                        Dedicated to writing clean, modular code, managing version control pipelines, and conducting deep root-cause debugging to ensure system reliability.
                     </p>
                 </div>
             </section>
