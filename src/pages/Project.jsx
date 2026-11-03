@@ -7,7 +7,7 @@ const projects = [
   {
     id: 7,
     title: 'MindTock Mobile Application',
-    description: 'Architected and published a live mobile utility application to the Google Play Store using React Native, TypeScript, and a Node.js backend. Utilized Replit for rapid cloud sandboxing and building, and applied advanced prompt engineering with Claude and Gemini. This utility app allows user to set any challenge of their choice from the available options for each alarm they set to prevent oversleeping or snoozing. There is also a maximum allowance of 2 snooze per week.',
+    description: 'Architected and published a live mobile utility application to the Google Play Store using React Native, TypeScript, and a Node.js backend. Utilized Replit for rapid cloud sandboxing and building, and applied advanced prompt engineering with Claude and Gemini. This utility app allows user to set any challenge of their choice from the available options for each alarm they set to prevent oversleeping or snoozing. There is also a maximum allowance of 2 snoozes per week.',
     media: (
       <video
         src={vid4}
@@ -31,7 +31,7 @@ const projects = [
   {
     id: 2,
     title: 'QuickPick - E-Commerce Experience',
-    description: 'An end-to-end UI/UX design project focused on user-centered design principles, encompassing user personas, detailed information architecture maps, comprhensive wireframes, and high-fidelity Figma prototyping.',
+    description: 'An end-to-end UI/UX design project focused on user-centered design principles, encompassing user personas, detailed information architecture maps, comprehensive wireframes, and high-fidelity Figma prototyping.',
     media: (
       <video
         src={vid3}
@@ -119,7 +119,7 @@ export default function Projects() {
             key={id}
             className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-indigo-500/50 transition-shadow duration-300"
           >
-            <div className="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
+            <div className="h-56 w-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
               {media}
             </div>
             <div className="p-6">
