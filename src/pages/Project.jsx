@@ -2,10 +2,23 @@ import React from 'react';
 import vid1 from '../assets/videos/compressed_00.44.09.mp4';
 import vid2 from '../assets/videos/compressedblog.mp4';
 import vid3 from '../assets/videos/compressed_00.56.24.mp4';
+import vid4 from '../assets/videos/compressed_mindtock.mp4';
 const projects = [
   {
+    id: 7,
+    title: 'MindTock Mobile Application',
+    description: 'Architected and published a live mobile utility application to the Google Play Store using React Native, TypeScript, and a Node.js backend. Utilized Replit for rapid cloud sandboxing and building, and applied advanced prompt engineering with Claude and Gemini. This utility app allows user to set any challenge of their choice from the available options for each alarm they set to prevent oversleeping or snoozing. There is also a maximum allowance of 2 snooze per week.',
+    media: (
+      <video
+        src={vid4}
+        controls
+        className="w-full h-full object-cover"
+      />
+    ),
+  },
+  {
     id: 1,
-    title: 'Car E-commerce Platform',
+    title: 'Car website',
     description: 'A full-stack web application featuring a dynamic product description layouts, an interactive news blog, and a backend service appointment booking system built with Node.js and Express.',
     media: (
       <video
