@@ -75,6 +75,7 @@ export default function Resume() {
               <span className="font-semibold not-italic">Project Scope:</span> Architected, verified, and published a live mobile utility application to the Google Play Store, managing the full release pipeline.
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
+              <li>Utilized Replit and AI-assisted prompt engineering with Claude and Gemini to rapidly prototype frontend forms and accelerate cloud deployment timelines.</li>
               <li>Integrated OpenAI API with a custom Node.js backend, using AI-assisted development tools throughout to design content moderation and fallback logic.</li>
               <li>Built and published an Android alarm app to Google Play Console requiring users to complete a challenge to dismiss the alarm.</li>
               <li>Developed native Kotlin modules for reliable alarm delivery on locked devices.</li>

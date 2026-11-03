@@ -34,7 +34,7 @@ export default function About() {
           style={{ maxWidth: '100%' }}
         />
       </section>
-      <p className="mx-auto text-lg max-w-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+      <p className="mx-auto text-lg max-w-xl text-gray-700 dark:text-gray-300 leading-relaxed pb-16">
           When I'm not debugging code or building user interfaces, I like to keep my mind and body active. You can find me out playind soccer, 
           basketball, or hitting the ice for some skating. Playing sports has taught me a lot about team communication, rapid problem-solving, and 
           staying disciplined under pressure. On the creative side, I really love dancing, singing and catching up on great movies to unwind. For me, 
