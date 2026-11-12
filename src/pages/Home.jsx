@@ -35,7 +35,7 @@ export default function Home() {
                 >
                     <Link
                         to="/projects"
-                        className="bg-white text-indigo-700 font-semibold px-6 py-2 rounded-md shadow hover:bg-indigo-100"
+                        className="border border-white text-white px-6 py-2 rounded-md hover:bg-white hover:text-indigo-700"
                     >
                         View Projects
                     </Link>
