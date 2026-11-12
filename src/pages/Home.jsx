@@ -56,7 +56,7 @@ export default function Home() {
                 <div className="max-w-3xl mx-auto text-center space-y-6">
                     <h2 className="text-3xl font-bold text-indigo-600 dark:text-cyan-400">Who am I?</h2>
                     <p className="text-gray-700 dark:text-gray-300 text-lg">
-                        I am a Computer Science student at the University of Gueplh focused on bridging the gap between 
+                        I am a Computer Science student at the University of Gueph focused on bridging the gap between 
                         clean engineering and user-centered design. I enjoy crafting intuitive interfaces using tools
                         like <strong>Figma</strong> and <strong>Tailwind CSS</strong>, and implementing reliable backend solutions
                         using the<strong> MERN stack</strong> (MongoDB, Express.js, React, and Node.js). I'm passionate about learning
