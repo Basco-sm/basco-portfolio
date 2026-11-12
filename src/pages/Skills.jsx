@@ -26,6 +26,8 @@ const skillCategories = [
       { name: 'Figma', level: 85 },
       { name: 'Google Forms', level: 90 },
       { name: 'Claude', level: 90 },
+      { name: 'Adobe Premier Pro', level: 70 },
+      { name: 'Adobe Photoshop', level: 65 },
     ],
   },
   {
