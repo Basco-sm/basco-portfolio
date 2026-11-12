@@ -45,6 +45,9 @@ export default function Home() {
                     >
                         Contact Me
                     </Link>
+                    <a href="https://github.com/Basco-sm" target="_blank" rel="noopener noreferrer" className="border border-white text-white px-6 py-2 rounded-md hover:bg-white hover:text-indigo-700">
+                        GitHub
+                    </a>
                 </motion.div>
             </section>
 
