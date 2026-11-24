@@ -59,24 +59,28 @@ export default function Resume() {
           </p>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-xl font-bold uppercase tracking-wider border-b-2 border-gray-800 pb-1 mb-4">
-            Experience
-          </h2>
+        <section className="space-y-6">
+          <h3 className="text-md font-bold tracking-wider text-indigo-600 dark:text-cyan-400 uppercase border-b border-gray-100 dark:border-gray-900 pb-1">
+            EXPERIENCE
+          </h3>
 
-          <div className="mb-4">
-            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline">
-              <h3 className="text-lg font-bold text-gray-900">
-                Junior Information Technology Consultant (Intern) — [Company Name]
-              </h3>
-              <span className="text-sm font-medium text-gray-600">
-                September 2024 – April 2025
+          {/* Temotoy Temtop Limited */}
+          <div className="space-y-2">
+            <div className="flex flex-col sm:flex-row justify-between font-semibold text-gray-900 dark:text-white">
+              <span>
+                Junior IT Consultant (Intern) |{" "}
+                <span className="font-normal text-gray-500 dark:text-gray-400">
+                  Temotoy Temtop Limited
+                </span>
+              </span>
+              <span className="text-sm font-normal text-gray-500">
+                September 2024 to April 2025
               </span>
             </div>
-            <p className="text-sm text-gray-600 italic mb-2">
-              React, Node.js, Express, MongoDB, Tailwind CSS, Postman
+            <p className="text-xs italic text-gray-600 dark:text-gray-400">
+              <span className="font-semibold not-italic">Tech Stack:</span> React, Node.js, Express, MongoDB, Tailwind CSS, Postman
             </p>
-            <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
+            <ul className="list-disc pl-5 space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
               <li>
                 Built a custom car sales web platform from scratch using React, Node.js, Express, and MongoDB to modernize vehicle browsing and customer service requests, featuring dynamic specification pages and an automotive news section.
               </li>
