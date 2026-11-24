@@ -108,11 +108,10 @@ export default function Resume() {
               <span className="font-semibold not-italic">Project Scope:</span> Architected, verified, and published a live mobile utility application to the Google Play Store, managing the full release pipeline.
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
-              <li>Utilized Replit and AI-assisted prompt engineering with Claude and Gemini to rapidly prototype frontend forms and accelerate cloud deployment timelines.</li>
-              <li>Integrated OpenAI API with a custom Node.js backend, using AI-assisted development tools throughout to design content moderation and fallback logic.</li>
-              <li>Built and published an Android alarm app to Google Play Console requiring users to complete a challenge to dismiss the alarm.</li>
-              <li>Developed native Kotlin modules for reliable alarm delivery on locked devices.</li>
-              <li>Debugged native build issues and managed the full Google Play release process.</li>
+              <li>Architected and published a challenge-based Android alarm app to the Google Play Store using React Native, Expo SDK 54, TypeScript, and Node.js inside a pnpm monorepo.</li>
+              <li>Integrated OpenAI with an Express 5 backend using Zod schema validation, OpenAPI, and TanStack React Query to generate dynamic AI roasts, trivia, and conversational challenges without exposing API keys in the APK.</li>
+              <li>Structured local device persistence with AsyncStorage and React Context to manage user profiles, alarm schedules, and streak statistics offline.</li>
+              <li>Isolated critical background thread and foreground service regressions by analyzing native Android device logs, guiding Replit via targeted prompts to resolve Kotlin AlarmManager and Gradle build configurations.</li>
             </ul>
           </div>
         </section>
