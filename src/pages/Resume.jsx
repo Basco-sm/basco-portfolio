@@ -21,7 +21,7 @@ export default function Resume() {
         </div>
         {/* DOWNLOAD BUTTON */}
         <a
-          href="/Toyinsola_Obayemi_Resume.pdf" 
+          href="/Toyinsola_Obayemi_Resume.pdf"
           download="Toyinsola_Obayemi_Resume.pdf"
           className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 dark:bg-cyan-500 dark:hover:bg-cyan-600 text-white font-semibold px-5 py-2.5 rounded-md shadow transition-colors duration-200"
         >
@@ -34,7 +34,7 @@ export default function Resume() {
 
       {/* Resume Document Wrapper (Simulates real single-column layout) */}
       <div className="bg-white dark:bg-gray-950 p-8 rounded-lg shadow-md border border-gray-200 dark:border-gray-800 space-y-8 text-left">
-        
+
         {/* Contact Block */}
         <div className="text-center sm:text-left border-b border-gray-100 dark:border-gray-900 pb-6">
           <h2 className="text-2xl font-bold tracking-wide">TOYINSOLA OBAYEMI</h2>
@@ -46,7 +46,7 @@ export default function Resume() {
             <span>•</span>
             <span>+1 (548) 316-4218</span>
             <span>•</span>
-            <a href="mailto:tobayemi@uoguelph.ca" className="hover:underline text-indigo-500 dark:text-cyan-400">tobayemi@uoguelph.ca</a>
+            <a href="mailto:olamide.toyinsola@gmail.com" className="hover:underline text-indigo-500 dark:text-cyan-400">olamide.toyinsola@gmail.com</a>
             <span>•</span>
             <a href="https://www.linkedin.com/in/toyinsola-obayemi-408b69350/" target="_blank" rel="noreferrer" className="hover:underline text-indigo-500 dark:text-cyan-400">://linkedin.com</a>
           </div>
@@ -59,7 +59,36 @@ export default function Resume() {
           </p>
         </section>
 
-        {/* Experience Section */}
+        <section className="mb-8">
+          <h2 className="text-xl font-bold uppercase tracking-wider border-b-2 border-gray-800 pb-1 mb-4">
+            Experience
+          </h2>
+
+          <div className="mb-4">
+            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline">
+              <h3 className="text-lg font-bold text-gray-900">
+                Junior Information Technology Consultant (Intern) — [Company Name]
+              </h3>
+              <span className="text-sm font-medium text-gray-600">
+                September 2024 – April 2025
+              </span>
+            </div>
+            <p className="text-sm text-gray-600 italic mb-2">
+              React, Node.js, Express, MongoDB, Tailwind CSS, Postman
+            </p>
+            <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
+              <li>
+                Built a custom car sales web platform from scratch using React, Node.js, Express, and MongoDB to modernize vehicle browsing and customer service requests, featuring dynamic specification pages and an automotive news section.
+              </li>
+              <li>
+                Streamlined vehicle inventory tracking and client inquiry records into structured digital spreadsheets, reducing manual lookup times and data entry errors for sales staff.
+              </li>
+              <li>
+                Diagnosed and resolved daily workstation, network, and software issues for non technical staff, writing clear reference guides for everyday digital tools.
+              </li>
+            </ul>
+          </div>
+        </section>
         <section className="space-y-6">
           <h3 className="text-md font-bold tracking-wider text-indigo-600 dark:text-cyan-400 uppercase border-b border-gray-100 dark:border-gray-900 pb-1">
             PERSONAL PROJECTS
@@ -80,22 +109,6 @@ export default function Resume() {
               <li>Built and published an Android alarm app to Google Play Console requiring users to complete a challenge to dismiss the alarm.</li>
               <li>Developed native Kotlin modules for reliable alarm delivery on locked devices.</li>
               <li>Debugged native build issues and managed the full Google Play release process.</li>
-            </ul>
-          </div>
-
-          {/* Car Website */}
-          <div className="space-y-2">
-            <div className="flex flex-col sm:flex-row justify-between font-semibold text-gray-900 dark:text-white">
-              <span>Car Website | <span className="font-normal text-gray-500 dark:text-gray-400">Full-Stack Developer</span></span>
-              <span className="text-sm font-normal text-gray-500">June 2025 - September 2025</span>
-            </div>
-            <p className="text-xs italic text-gray-600 dark:text-gray-400">
-              <span className="font-semibold not-italic">Project Scope:</span> Developed a local full-stack web application featuring a hardcoded frontend inventory catalog, dedicated vehicle detail pages, an automotive news blog, and a service appointment booking system using backend.
-            </p>
-            <ul className="list-disc pl-5 space-y-1.5 text-sm text-gray-700 dark:text-gray-300">
-              <li>Created reusable React components to dynamically render individual vehicle specification pages and layout the automotive news blog from frontend data arrays.</li>
-              <li>Built an automated appointment booking system from scratch to capture user data and handle service scheduling workflows.</li>
-              <li>Used Node.js and Express.js to build the backend logic for processing service appointment requests.</li>
             </ul>
           </div>
         </section>

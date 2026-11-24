@@ -11,8 +11,8 @@ export default function Footer() {
           <h2 className="text-lg font-bold mb-4 text-indigo-600 dark:text-cyan-400">Get In Touch</h2>
           <p className="flex items-center gap-3 mb-2">
             <FaEnvelope className="text-indigo-600 dark:text-cyan-400" />
-            <a href="mailto:tobayemi@uoguelph.ca.com" className="hover:underline">
-              tobayemi@uoguelph.ca
+            <a href="mailto:olamide.toyinsola@gmail.com" className="hover:underline">
+              olamide.toyinsola@gmail.com
             </a>
           </p>
           <p className="flex items-center gap-3">
@@ -47,8 +47,8 @@ export default function Footer() {
 
             <li className="flex items-center gap-3">
               <FaEnvelope className="text-indigo-600 dark:text-cyan-400" />
-              <a href="mailto:tobayemi@uoguelph.ca" className="hover:underline">
-               tobayemi@uoguelph.ca
+              <a href="mailto:olamide.toyinsola@gmail.com" className="hover:underline">
+               olamide.toyinsola@gmail.com
               </a>
             </li>
           </ul>
